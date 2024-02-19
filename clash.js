@@ -12,4 +12,5 @@ function play(){
 }
 function continueGame(){
     const alpabate=getContainueGame()
+    console.log('Your Alpabate is',alpabate)
 }

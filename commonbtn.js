@@ -9,5 +9,9 @@ function showById(elementId){
 function getContainueGame(){
     const randomAlpabateString='abcdefghijklmnopqrstuvwxyz'
     const alpabateSplit=randomAlpabateString.split('')
-    
+    const randomNumber=Math.random() * 25;
+    const randomindext=Math.round(randomNumber)
+    const  showgame=alpabateSplit[randomindext]
+    // console.log(randomindext,showgame)
+    return showgame;
 }

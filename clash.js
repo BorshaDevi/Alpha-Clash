@@ -12,5 +12,6 @@ function play(){
 }
 function continueGame(){
     const alpabate=getContainueGame()
-    console.log('Your Alpabate is',alpabate)
+    const currentAlphabet=document.getElementById('currentalphabet')
+    currentAlphabet.innerText=alpabate;
 }

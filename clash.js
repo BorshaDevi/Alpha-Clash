@@ -14,4 +14,5 @@ function continueGame(){
     const alpabate=getContainueGame()
     const currentAlphabet=document.getElementById('currentalphabet')
     currentAlphabet.innerText=alpabate;
+    setBackgroundColor(alpabate)
 }

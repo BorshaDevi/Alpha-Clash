@@ -4,7 +4,12 @@
 //     const playGround=document.getElementById('play-ground')
 //     playGround.classList.remove('hidden')
 // }
+
 function play(){
     hiddenById('home-screen')
     showById('play-ground')
+    continueGame()
+}
+function continueGame(){
+
 }

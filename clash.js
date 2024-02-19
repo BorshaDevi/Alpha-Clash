@@ -11,5 +11,5 @@ function play(){
     continueGame()
 }
 function continueGame(){
-
+    const alpabate=getContainueGame()
 }
